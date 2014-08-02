@@ -4,6 +4,7 @@ span.cm-link		{ color: #0082e3; }
 span.cm-number		{ color: #0082e3; }
 span.cm-string		{ color: #0082e3; }
 
+span.cm-builtin     { color: #a87d00; }
 span.cm-def			{ color: #181e21; }
 span.cm-keyword		{ color: #181e21; }
 span.cm-operator	{ color: #181e21; }
@@ -18,7 +19,6 @@ span.cm-comment		{ color: #69879a; }
 span.cm-error		{ color: #ff0076; }
 span.cm-property	{ color: #308800; }
 
-span.cm-builtin     { color: #a87d00; }
 span.cm-string-2    { color: #a87d00; }
 span.cm-variable-2	{ color: #a87d00; }
 span.cm-header      { color: #a87d00; }
