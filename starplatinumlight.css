@@ -37,11 +37,11 @@ span.cm-meta		{ color: #4d6e7e; }
 }
 
 .CodeMirror-cursor {
-	border-left: 2px solid #22a0ff !important;
+	border-left: 1px solid #006cbc !important;
 }
 
 .CodeMirror-overwrite .CodeMirror-cursor {
-    border-bottom: 2px solid #22a0ff !important;
+    border-bottom: 1px solid #006cbc !important;
     border-left: none !important;
 }
 
@@ -88,4 +88,15 @@ span.cm-meta		{ color: #4d6e7e; }
 
 .CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
 	color: #308800;
+}
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #f6f9fa;
+}
+
+#image-holder {
+    color: #308800;
 }
