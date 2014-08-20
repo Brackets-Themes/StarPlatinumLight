@@ -1,43 +1,42 @@
-/* SWATCHES ---------------------------------------------------------------------- */
+/* SWATCHES ------------------------------------------------------------------ */
 
-span.cm-link		{ color: #0082e3; }
-span.cm-number		{ color: #0082e3; }
-span.cm-string		{ color: #0082e3; }
+span.cm-link        { color: #0082e3; }
+span.cm-number      { color: #0082e3; }
+span.cm-string      { color: #0082e3; }
 
 span.cm-builtin     { color: #181e21; }
-span.cm-def			{ color: #181e21; }
-span.cm-keyword		{ color: #181e21; }
-span.cm-operator	{ color: #181e21; }
-span.cm-qualifier	{ color: #181e21; }
-span.cm-tag			{ color: #181e21; }
+span.cm-def         { color: #181e21; }
+span.cm-keyword     { color: #181e21; }
+span.cm-operator    { color: #181e21; }
+span.cm-qualifier   { color: #181e21; }
+span.cm-tag         { color: #181e21; }
 
-span.cm-attribute	{ color: #c155f4; }
-span.cm-variable	{ color: #c155f4; }
+span.cm-attribute   { color: #c155f4; }
+span.cm-variable    { color: #c155f4; }
 
-span.cm-atom		{ color: #2358d1; }
-span.cm-comment		{ color: #69879a; }
-span.cm-error		{ color: #ff0076; }
-span.cm-property	{ color: #308800; }
+span.cm-atom        { color: #2358d1; }
+span.cm-comment     { color: #69879a; }
+span.cm-error       { color: #ff0076; }
+span.cm-property    { color: #308800; }
 
 span.cm-string-2    { color: #a87d00; }
-span.cm-variable-2	{ color: #a87d00; }
-span.cm-variable-3	{ color: #a87d00; }
+span.cm-variable-2  { color: #a87d00; }
+span.cm-variable-3  { color: #a87d00; }
 span.cm-header      { color: #a87d00; }
 
-span.cm-bracket		{ color: #4d6e7e; }
-span.cm-meta		{ color: #4d6e7e; }
+span.cm-bracket     { color: #4d6e7e; }
+span.cm-meta        { color: #4d6e7e; }
 
 
 /* MISC ---------------------------------------------------------------------- */
 
-.CodeMirror,
 .CodeMirror .CodeMirror-scroll {
-	background: #f6f9fa;
-	color: #308800;
+    background: #f6f9fa;
+    color: #308800;
 }
 
 .CodeMirror-cursor {
-	border-left: 1px solid #006cbc !important;
+    border-left: 1px solid #006cbc !important;
 }
 
 .CodeMirror-overwrite .CodeMirror-cursor {
@@ -46,48 +45,48 @@ span.cm-meta		{ color: #4d6e7e; }
 }
 
 .CodeMirror-gutters {
-	background: #f6f9fa;
-	border-right: 0;
+    background: #f6f9fa;
+    border-right: 0;
 }
 
 .CodeMirror-linenumber {
-	color: #aac2d0;
+    color: #aac2d0;
 }
 
 .CodeMirror-selected {
-	background: #c4d9ff !important;
+    background: #c4d9ff !important;
 }
 
 /* Matching */
 
 .CodeMirror-matchingbracket {
     background: transparent !important;
-	border-bottom: 3px solid #2ad351 !important;
+    border-bottom: 3px solid #2ad351 !important;
     color: #308800 !important;
 }
 
 .CodeMirror-matchingtag {
     background: transparent !important;
-	border-bottom: 3px solid #2ad351 !important;
+    border-bottom: 3px solid #2ad351 !important;
 }
 
 /* Active Line */
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
-	color: #181e21 !important;
+    color: #181e21 !important;
 }
 
 .CodeMirror-activeline-background {
-	background: #fff !important;
+    background: #fff !important;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-	color: #7133ff;
-	background-color: #e2eaeb !important;
+    color: #7133ff;
+    background-color: #e2eaeb !important;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
-	color: #308800;
+    color: #308800;
 }
 
 /* Non-editor styling */
