@@ -30,7 +30,10 @@ span.cm-meta		{ color: #4d6e7e; }
 
 /* MISC ---------------------------------------------------------------------- */
 
-.CodeMirror,
+.CodeMirror {
+    line-height: 1.4;
+}
+
 .CodeMirror .CodeMirror-scroll {
 	background: #f6f9fa;
 	color: #308800;
